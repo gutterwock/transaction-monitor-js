@@ -1,0 +1,28 @@
+{
+  "name": "transaction-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "genSecret": "node src/util/generateSecret.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gutterwock/transaction-monitor-js.git"
+  },
+  "author": "gutterwock",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gutterwock/transaction-monitor-js/issues"
+  },
+  "homepage": "https://github.com/gutterwock/transaction-monitor-js#readme",
+  "dependencies": {
+    "schwab-api-client": "github:gutterwock/schwab-api-client#57a6495"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "otplib": "^12.0.1",
+    "qrcode": "^1.5.4"
+  }
+}
