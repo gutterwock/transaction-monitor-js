@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "genSecret": "node src/util/generateSecret.js"
   },
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/gutterwock/transaction-monitor-js#readme",
   "dependencies": {
-    "schwab-api-client": "github:gutterwock/schwab-api-client#57a6495"
+    "express": "^5.1.0",
+    "schwab-api-client": "github:gutterwock/schwab-api-client#a803cf93acad34b693d1db838927ff12509d3e6e"
   },
   "devDependencies": {
     "jest": "^30.2.0",
